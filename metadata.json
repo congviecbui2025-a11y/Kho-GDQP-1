@@ -1,0 +1,6 @@
+{
+  "name": "Quản lý kho thiết bị GDQP&AN - THPT Bùi Hữu Nghĩa",
+  "description": "Hệ thống quản lý kho thiết bị Giáo dục Quốc phòng và An ninh Trường THPT Bùi Hữu Nghĩa - Giáo viên: Ngô Quang Vinh",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

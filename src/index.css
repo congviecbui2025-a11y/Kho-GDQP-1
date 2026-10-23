@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Times New Roman', Times, 'Liberation Serif', serif;
+  }
+
+  html, body {
+    font-family: 'Times New Roman', Times, 'Liberation Serif', serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  input, select, textarea, button, table {
+    font-family: inherit;
+  }
+}
+
+/* Custom print media styles for official Vietnamese school reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 13pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}
+
+/* Custom tech blue scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
